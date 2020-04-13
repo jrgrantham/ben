@@ -6,11 +6,11 @@ import ben from './images/humberBridge.JPG'
 export default function App() {
   return (
     <Welcome className="App">
-      <h1>Hello, my name is Ben</h1>
-      <p>I go to cluny school</p>
+      <h2>Hello, my name is Ben</h2>
       <div className='image'>
         <img src={ben} alt='ben' />
       </div>
+      <h6>I live in Aberdeen</h6>
     </Welcome>
   );
 }
@@ -19,19 +19,28 @@ const Welcome = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  .image {
-    width: 80vw;
-    height: 80vh;
-    // border: 1px solid red;
+
+  h2 {
+    margin: 20px;
+    color: #ffa500;
+  }
+
+  h6 {
+    color: #ffa500;
+    margin-top: 40px;
   }
   
+  .image {
+    display: flex;
+    max-width: 60%;
+    max-height: 60%;
+  }
+
   img {
-    border: 25px solid blue;
-    padding: 20px;
-    border-radius: 50px;
-    max-width: 100%;
-    max-height: 100%;
-    // border: 1px solid red;
+    border: 10px solid #005AFF;
+    border-radius: 100px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
   }
 `
