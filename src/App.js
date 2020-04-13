@@ -34,13 +34,13 @@ const Welcome = styled.div`
     display: flex;
     max-width: 60%;
     max-height: 60%;
+    border: 30px solid #005AFF;
+    border-radius: 100px;
+    overflow: hidden;
   }
 
   img {
-    border: 10px solid #005AFF;
-    border-radius: 100px;
-    padding: 30px;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 `
