@@ -28,8 +28,8 @@ export default function App() {
         </div>
       </div>
       <div className='links'>
-        <a href='https://jamesgrantham.me/'>visit my dad</a>
-        <a href='https://samgrantham.netlify.com/'>visit my brother, Sam</a>
+        <a href='https://jamesgrantham.me/'>visit my dad's site</a>
+        <a href='https://samgrantham.netlify.com/'>visit Sam's site</a>
       </div>
     </Welcome>
   );
@@ -54,7 +54,8 @@ const Welcome = styled.div`
     display: inline-block;
     color: #282c34;
     background-color: #ffa500;
-    width: 350px;
+    max-width: 350px;
+    width: 80%;
     margin-bottom: 30px;
     padding: 10px;
     border-radius: 50px;
@@ -67,14 +68,18 @@ const Welcome = styled.div`
   }
 
   .links {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   .interests {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 50px 0;
-
+    width: 100%;
     @media (max-width: 1000px) {
       flex-direction: column;
     }
@@ -84,7 +89,8 @@ const Welcome = styled.div`
     border: 10px solid #ffa500;
     margin: 0 30px 0 30px;
     border-radius: 20px;
-    width: 350px;
+    max-width: 350px;
+    width: 90%;
 
     @media (max-width: 1000px) {
       margin: 30px;
