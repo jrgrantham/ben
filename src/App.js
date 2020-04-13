@@ -34,8 +34,8 @@ const Welcome = styled.div`
     display: flex;
     max-width: 60%;
     max-height: 60%;
-    border: 30px solid #005AFF;
-    border-radius: 100px;
+    // border: 30px solid #005AFF;
+    border-radius: 50px;
     overflow: hidden;
   }
 
