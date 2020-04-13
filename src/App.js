@@ -23,7 +23,7 @@ export default function App() {
           <h2>Things I like</h2>
           <h5>bonfires</h5>
           <h5>holidays</h5>
-          <h5>sweets</h5>
+          <h5>seeing my dad</h5>
           <h5>Hull fair</h5>
         </div>
       </div>
